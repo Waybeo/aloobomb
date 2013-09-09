@@ -679,7 +679,7 @@ a.button:hover, input.button:hover {
 	overflow: auto;
 }
 .box-product > div {
-	width: 300px;
+	width: 220px;
 	display: inline-block;
 	vertical-align: top;
 	margin-right: 15px;
@@ -688,6 +688,11 @@ a.button:hover, input.button:hover {
 #column-left + #column-right + #content .box-product > div {
 	width: 119px;
 }
+.box-product .gryBoxB {
+	width: 188px;
+	margin-left: 20px;
+	padding-bottom: 5px;
+}
 .box-product .image {
 	display: block;
 	margin-bottom: 0px;
@@ -695,9 +700,11 @@ a.button:hover, input.button:hover {
 .box-product .image img {
 	padding: 3px;
 	border: 1px solid #E7E7E7;
+	width: 180px;
+	height: 180px;
 }
 .box-product .name a {
-	color: #38B0E3;
+	color: #000000;
 	font-weight: bold;
 	text-decoration: none;
 	display: block;
@@ -947,7 +954,7 @@ ul.box-filter > li ul {
 	overflow: auto;
 }
 .product-grid > div {
-	width: 130px;
+	width: 160px;
 	display: inline-block;
 	vertical-align: top;
 	margin-right: 20px;
